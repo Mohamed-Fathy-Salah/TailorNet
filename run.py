@@ -13,7 +13,7 @@ from utils.interpenetration import remove_interpenetration_fast
 
 
 OUT_PATH = "../output"
-TXT_PATH = "../txt/"
+TXT_PATH = "txt/"
 
 garment_gammas = {
         't-shirt_male' : {
