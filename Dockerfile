@@ -1,7 +1,7 @@
 FROM ubuntu
 
 RUN apt update && apt install git build-essential libboost-dev python3 python3-pip unzip -y
-RUN pip install pybind11 setuptools numpy matplotlib pyopengl pillow pyzmq pyyaml opencv-python chumpy tensorboardX pyjwt fastapi uvicorn asyncio-nats-streaming
+RUN pip install pybind11 setuptools numpy matplotlib pyopengl pillow pyzmq pyyaml opencv-python chumpy tensorboardX 
 
 WORKDIR /app
 
